@@ -1,6 +1,6 @@
 {
 	"name": "favicon-downloader-cli",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "a cli to download favicon of any site",
 	"main": "cli.js",
 	"scripts": {
