@@ -13,10 +13,10 @@ const cli = meow(
 	  $ favdownload <url> [--path] [--name] 
 	Options
 	  --path         Path to download the favicon
-	  --name         Name for new file downloaded
+	  --name         Name for favicon file downloaded
 	Examples
 	  $ favdownload https://theanubhav.com
-	  $ favdownload https://devtips.theanubhav.com --name favicon.ico "
+	  $ favdownload https://devtips.theanubhav.com --name favicon.ico
 	  $ favdownload https://about.theanubhav.com --name favicon.ico  --path /a/ico 
 `,
 	{

@@ -1,6 +1,6 @@
 # favicon-downloader-cli
 
-A module to download favicon of any site
+> A module to download favicon of any site
 
 [![Build Status](https://travis-ci.org/anubhavsrivastava/favicon-downloader-cli.svg?branch=master)](https://travis-ci.org/anubhavsrivastava/favicon-downloader-cli)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -8,6 +8,30 @@ A module to download favicon of any site
 [![HitCount](http://hits.dwyl.io/anubhavsrivastava/favicon-downloader-cli.svg)](http://hits.dwyl.io/anubhavsrivastava/favicon-downloader-cli)
 
 [![NPM](https://nodei.co/npm/favicon-downloader-cli.png?downloads=true&stars=true)](https://nodei.co/npm/favicon-downloader-cli/)
+
+## Install
+
+```
+$ npm install favicon-downloader-cli --g
+```
+
+## Usage
+
+```
+$ favdownload --help
+
+  a cli to download favicon of any site
+
+  Usage
+    $ favdownload <url> [--path] [--name]
+  Options
+    --path         Path to download the favicon
+    --name         Name for favicon file downloaded
+  Examples
+    $ favdownload https://theanubhav.com
+    $ favdownload https://devtips.theanubhav.com --name favicon.ico
+    $ favdownload https://about.theanubhav.com --name favicon.ico  --path /a/ico
+```
 
 ### Related Module
 
