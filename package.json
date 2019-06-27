@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"fdown": "cli.js"
+		"favdownload": "cli.js"
 	},
 	"files": [
 		"cli.js"
@@ -34,6 +34,8 @@
 	},
 	"homepage": "https://github.com/anubhavsrivastava/favicon-downloader-cli#readme",
 	"dependencies": {
-		"meow": "^5.0.0"
+		"favicon-downloader": "^1.0.0",
+		"meow": "^5.0.0",
+		"update-notifier": "^3.0.0"
 	}
 }
