@@ -46,9 +46,10 @@ if (!input) {
 (async () => {
 	downloadIcons(input, cli.flags)
 		.then(_ => {
-			console.log('Successful downloaded Favicon');
+			console.log('Successful downloaded favicons for ', input);
 		})
 		.catch(e => {
-			console.log(e);
+			console.log('Failed to download favicons for ', input);
+			console.log('Reason:', e);
 		});
 })();
