@@ -1,0 +1,39 @@
+{
+	"name": "favicon-downloader-cli",
+	"version": "0.0.1",
+	"description": "a cli to download favicon of any site",
+	"main": "cli.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"fdown": "cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+	"engines": {
+		"node": ">=8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/favicon-downloader-cli.git"
+	},
+	"keywords": [
+		"cli",
+		"favicon",
+		"favicon-downloader"
+	],
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/favicon-downloader-cli/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/favicon-downloader-cli#readme",
+	"dependencies": {
+		"meow": "^5.0.0"
+	}
+}
